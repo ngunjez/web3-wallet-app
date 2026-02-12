@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { BrowserProvider, Contract, formatUnits } from 'ethers';
 import { BalanceState, USDT_CONTRACT_ADDRESS } from '@/src/types/web3';
 
-// Minimal ERC20 ABI for balanceOf
+
 const ERC20_ABI = [
   'function balanceOf(address owner) view returns (uint256)',
   'function decimals() view returns (uint8)',

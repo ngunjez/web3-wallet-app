@@ -1,6 +1,5 @@
 export const theme = {
   colors: {
-    // Neo-brutalist cyber palette
     primary: '#00FF88',
     primaryDark: '#00CC6A',
     secondary: '#FF0055',
